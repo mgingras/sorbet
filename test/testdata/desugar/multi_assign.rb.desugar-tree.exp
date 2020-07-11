@@ -74,7 +74,7 @@ class <emptyTree><<C <root>>> < (::<todo sym>)
           <assignTemp>$19 = ::<Magic>.<expand-splat>(<assignTemp>$18, 2, 0)
           begin
             <assignTemp>$20 = a
-            if <assignTemp>$20.==(nil)
+            if ::NilClass.===(<assignTemp>$20)
               nil
             else
               <assignTemp>$20.x=(<assignTemp>$19.[](0))
